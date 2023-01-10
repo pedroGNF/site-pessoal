@@ -41,7 +41,7 @@ a {
 
 ul {
   list-style-type: "🧔🏻";
-  list-style-image: url("eu_icon.ico");
+  list-style-image: url("assets/eu_icon.ico");
 }
 
 .link:hover {
