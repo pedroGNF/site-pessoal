@@ -1,0 +1,97 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ccc;
+  background-image: linear-gradient(
+    #5cbd4780,
+    #54acb980,
+    #25259780,
+    #a86b1a80,
+    #5cbd4780,
+    #54acb980,
+    #25259780,
+    #a86b1a80
+  );
+  margin: auto;
+  max-width: 65rem;
+}
+
+.photo {
+  height: 8.5em;
+  width: auto;
+  border: 0.1rem solid #505050;
+  border-radius: 50%;
+}
+
+#title,
+.subtitle,
+.post_title {
+  color: #505050;
+  font-weight: bold;
+}
+
+#title {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: underline;
+  color: #5658ce;
+}
+
+ul {
+  list-style-type: "🧔🏻";
+  list-style-image: url("eu_icon.ico");
+}
+
+.link:hover {
+  color: purple;
+  font-style: bold;
+}
+
+.post_title {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+.post {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-top: 0.2rem dotted #57e663;
+  border-right: 0.4rem dashed #e77ab6;
+  border-bottom: 0.1rem solid #b632af;
+  border-left: 0.4rem dotted #3be2ff;
+  margin-bottom: 1.5rem;
+  border-radius: 3%;
+  background-image: linear-gradient(
+    rgba(204, 229, 233, 0.5),
+    rgba(56, 56, 83, 0.5)
+  );
+}
+
+.post_content {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.post_image {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.contacts_list {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+.contacts_list li a {
+  color: green;
+}
+
+.footer {
+  border: #3be2ff;
+}
